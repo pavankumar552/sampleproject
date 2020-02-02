@@ -28,16 +28,15 @@
 				<configuration>
 				</configuration>
 			</plugin>
-			
 			<plugin>
 	<groupId>org.mule.tools.maven</groupId>
 	<artifactId>mule-maven-plugin</artifactId>
-	<version>1.7</version>
+	<version>${mule.maven.plugin.version}</version>
 	<configuration>
 		<cloudHubDeployment>
 			<muleVersion>${app.runtime}</muleVersion>
 			<username>pavanwipro</username>
-			<password>pavan@552</password>
+			<password>Pavan@552</password>
 			<applicationName>sample-test-app</applicationName>
 			<environment>Sandbox</environment>
 			<!-- <region>${cloudhub.region}</region> -->
